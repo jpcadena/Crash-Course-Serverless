@@ -1,4 +1,4 @@
-service: LandetaLetsGoServerless
+service: CadenaAguilarLetsGoServerless
 provider:
   name: aws
   region: us-east-1
@@ -6,8 +6,8 @@ provider:
   runtime: python3.8
   timeout: 360
 functions:
-  LandetaSuma:
-    name: LandetaSuma
+  CadenaAguilarSuma:
+    name: CadenaAguilarSuma
     handler: lambda_handler.suma
     environment:
       PASSWORD: contrasena-de-algo
